@@ -46,6 +46,12 @@ body {
     border: 1px solid #D1D5DB;
     background-color: #FFF;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    scale: 1.05;
+    font-weight: 700;
 }
 
 form {

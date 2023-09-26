@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="card-container">
+        
+        <div class="container">
+            <form id="color-form" action="submit">
+                <input type="color" class="color-picker" id="color-picker" name="color-picker" value="#ff0000">
+                <select class="color-schema" name="color-schema" id="color-schema">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+                <button class="btn" id="btn-submit" type="submit">Get color scheme</button>
+            </form>
+            
+        </div>
+        <div class="color-rectangles-container" id="color-rectangles">
+
+        </div>
+        
+        
+        
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

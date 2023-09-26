@@ -15,8 +15,9 @@ body {
 
 .card-container {
     height: 550px;
-    width: 100%;
+    width: 90%;
     max-width: 550px;
+    min-width: 350px;
     border: solid #D1D5DB;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -73,6 +74,12 @@ form {
 .hex-code {
     text-align: center;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .hex-code {
+        font-size: 12px;
+    }
 }
 
 
